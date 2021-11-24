@@ -8,6 +8,7 @@ h1 {
     text-align: center;
     font-size: 38px;
     color:white;
+    padding: 30px;
 }
 
 .navbar {
@@ -17,6 +18,8 @@ h1 {
     text-align: center;
     margin: 0 auto;
     grid-template-columns: repeat(6, 1fr);
+    padding: 10px 0;
+    border-top: 5px solid rgb(56,150,190);
 
     background-color: white;
     a {
@@ -32,10 +35,10 @@ h1 {
     width: 75%;
     margin: 0 auto;
     border: 2px soild rgb(240, 19, 19);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 20px;
     padding-top: 20px;
-    padding: 40px;
+   
 
     div{
         background-color: #fff;
@@ -48,8 +51,20 @@ h1 {
             padding: 0px 10px;
         }
         a{
-            padding:20px 10px;
             color: red;
+        }
+    }
+
+    .three{
+        li{
+            padding: 10px 5px;
+            margin:10px 0 0  0;
+        background-color: red;
+        a{
+        color: white;
+        
+    
+        }
         }
     }
 
@@ -58,9 +73,10 @@ h1 {
       }
 
     .img-1{
-        height: 300px;
-        width: 300px;
+        height: 290px;
+        width: 290px;
         border-radius: 50%;
+        padding: 10px 0 10px 13px;
     }
     
     .forth{
@@ -73,7 +89,18 @@ h1 {
         }
     }
 
+    .five{
+        h2{
+            background-color: rgb(56,150,190);
+            margin-bottom: 10px;
+            color: white;
 
+        }
+    }
+
+    .first , .second ,  .three , .six , .forth {
+        border-top: 4px solid cornflowerblue;
+    }
 
 }
 

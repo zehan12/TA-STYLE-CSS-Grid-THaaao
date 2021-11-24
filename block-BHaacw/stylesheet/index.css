@@ -60,6 +60,7 @@ h1 {
   text-align: center;
   font-size: 38px;
   color: white;
+  padding: 30px;
 }
 
 .navbar {
@@ -69,6 +70,8 @@ h1 {
   text-align: center;
   margin: 0 auto;
   grid-template-columns: repeat(6, 1fr);
+  padding: 10px 0;
+  border-top: 5px solid #3896be;
   background-color: white;
 }
 .navbar a {
@@ -82,10 +85,9 @@ h1 {
   width: 75%;
   margin: 0 auto;
   border: 2px soild #f01313;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, auto);
   grid-gap: 20px;
   padding-top: 20px;
-  padding: 40px;
 }
 .wrapper div {
   background-color: #fff;
@@ -99,16 +101,24 @@ h1 {
   padding: 0px 10px;
 }
 .wrapper div a {
-  padding: 20px 10px;
   color: red;
+}
+.wrapper .three li {
+  padding: 10px 5px;
+  margin: 10px 0 0 0;
+  background-color: red;
+}
+.wrapper .three li a {
+  color: white;
 }
 .wrapper .second {
   grid-row: span 3;
 }
 .wrapper .img-1 {
-  height: 300px;
-  width: 300px;
+  height: 290px;
+  width: 290px;
   border-radius: 50%;
+  padding: 10px 0 10px 13px;
 }
 .wrapper .forth {
   grid-row: span 2;
@@ -118,4 +128,12 @@ h1 {
   padding-left: 70px;
   height: 150px;
   width: 150px;
+}
+.wrapper .five h2 {
+  background-color: #3896be;
+  margin-bottom: 10px;
+  color: white;
+}
+.wrapper .first, .wrapper .second, .wrapper .three, .wrapper .six, .wrapper .forth {
+  border-top: 4px solid cornflowerblue;
 }/*# sourceMappingURL=index.css.map */
