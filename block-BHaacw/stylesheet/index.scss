@@ -1,0 +1,85 @@
+@import "reset";
+
+body {
+    background-color: #3A4A4F;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    color:white;
+}
+
+.navbar {
+    display: grid;
+    width: 1000px;
+    font-size : 23px;
+    text-align: center;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+
+    background-color: white;
+    a {
+        text-decoration: none;
+        font-size: 30px;
+        color: cornflowerblue;
+      }
+
+}
+
+.wrapper{
+    display: grid;
+    width: 75%;
+    margin: 0 auto;
+    border: 2px soild rgb(240, 19, 19);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-top: 20px;
+    padding: 40px;
+
+    div{
+        background-color: #fff;
+        h2{
+            font-size: 23px;
+            padding: 10px;
+            font-family: sans-serif;
+        }
+        p{
+            padding: 0px 10px;
+        }
+        a{
+            padding:20px 10px;
+            color: red;
+        }
+    }
+
+    .second{
+        grid-row: span 3;
+      }
+
+    .img-1{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    
+    .forth{
+        grid-row: span 2;
+        img{
+            padding: 20px;
+            padding-left: 70px;
+            height: 150px;
+            width:150px;
+        }
+    }
+
+
+
+}
+
+
+
+
+
+
+
